@@ -3,7 +3,7 @@ function check_validity(){
     var email = document.getElementById("email");
     var u_name = document.getElementById("name");
     var pass = document.getElementById("pass");
-
+    var test="nothing";
 
     var email_val = false, name_val = false, pass_val = false;
 
