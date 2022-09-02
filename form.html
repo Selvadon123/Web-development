@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration and login form</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <form id="val" action="#">
+
+            <label for="name" class="lab">Name</label>
+            <input type="text" name="" id="name" class="inp"><br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email"><br>
+
+            <label for="pass">Password</label>
+            <input type="text" name="" id="pass"><br>
+
+            <label for="country">Country</label>
+            <select name = "country">
+                <option selected ="" value = "Default">
+                    (select the country)
+                    <option value ="asd">Australia</option>
+                    <option value ="dvd">Canada</option>
+                    <option value ="fss">India</option>
+                </option>
+            </select>
+
+            <button onclick=check_validity()>Submit</button>
+        </form>
+
+        <script src="./form.js"></script>
+    </body>
+    
+</html>
