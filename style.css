@@ -1,8 +1,27 @@
-.inp {
-    background-color:brown;    
+body{
+    background:pink;
+}
+h1{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+.blue {
+    color: pink;
+    background: black;
+    width: 200px;
+    height: 200px;
+}
+.red{
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+.newlayout div{
+    background: red;
+    height: 200px;
+    width: 200px;
+    border:1px solid black;
+    margin: 10px;
 }
 
-.lab{
-    color:green;
-    background-color: red;
-}
